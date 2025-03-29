@@ -154,8 +154,8 @@ def play_game(player_id):
             sleep(0.5)
 
         # Override pentru prima rundă (test)
-        if round_id == 1:
-            sys_word = 'War'
+        # if round_id == 1:
+        #     sys_word = 'War'
 
         chosen_word = strategy.choose_best_word(sys_word)
         chosen_id = strategy.text_to_id[chosen_word]

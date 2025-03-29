@@ -20,7 +20,7 @@ def play_game(player_id):
         round_num = -1
         while round_num != round_id:
             response = requests.get(get_url)
-            print(response.json())
+            # print(response.json())
             sys_word = response.json()['word']
             round_num = response.json()['round']
 
@@ -31,6 +31,7 @@ def play_game(player_id):
             print(status.json())
 
         choosen_word = what_beats(sys_word)
+        print(f"Chosen word: {choosen_word}")
         data = {"player_id": player_id,
                 "word_id": choosen_word, "round_id": round_id}
         response = requests.post(post_url, json=data)

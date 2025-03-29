@@ -32,17 +32,18 @@ def train_model():
             return
 
     # Crearea indexurilor pentru cuvinte
-    try:
-        with open("words_dictionary.json", "r") as f:
-            all_words_dict = json.load(f)
-        system_words = list(all_words_dict.keys())
-    except FileNotFoundError:
-        print("Error: words_dictionary.json file not found")
-        return
-    except json.JSONDecodeError:
-        print("Error: Invalid JSON in words_dictionary.json")
-        return
-    # system_words = list(df['system_word'].unique())
+    # try:
+    #     with open("words_dictionary.json", "r") as f:
+    #         all_words_dict = json.load(f)
+    #     system_words = list(all_words_dict.keys())
+    # except FileNotFoundError:
+    #     print("Error: words_dictionary.json file not found")
+    #     return
+    # except json.JSONDecodeError:
+    #     print("Error: Invalid JSON in words_dictionary.json")
+    #     return
+
+    system_words = list(df['system_word'].unique())
     player_words = list(df['chosen_word'].unique())
 
     # Mapare cuvinte la indexuri
