@@ -28,14 +28,14 @@ def play_game(player_id):
 
         if round_id > 1:
             status = requests.get(status_url)
-            print(status.json())
+            # print(status.json())
 
         choosen_word = what_beats(sys_word)
-        print(f"Chosen word: {choosen_word}")
+        # print(f"Chosen word: {choosen_word}")
         data = {"player_id": player_id,
                 "word_id": choosen_word, "round_id": round_id}
         response = requests.post(post_url, json=data)
-        print(response.json())
+        # print(response.json())
 
 
 if __name__ == "__main__":
