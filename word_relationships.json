@@ -1,0 +1,722 @@
+[
+  {
+    "word": "feather",
+    "category": "other",
+    "counters": [
+      "pebble",
+      "rock",
+      "coal",
+      "leaf",
+      "paper"
+    ],
+    "cost": 1
+  },
+  {
+    "word": "coal",
+    "category": "other",
+    "counters": [
+      "pebble",
+      "rock",
+      "leaf",
+      "paper",
+      "feather"
+    ],
+    "cost": 1
+  },
+  {
+    "word": "pebble",
+    "category": "other",
+    "counters": [
+      "rock",
+      "coal",
+      "leaf",
+      "paper",
+      "feather"
+    ],
+    "cost": 1
+  },
+  {
+    "word": "leaf",
+    "category": "other",
+    "counters": [
+      "pebble",
+      "rock",
+      "coal",
+      "paper",
+      "feather"
+    ],
+    "cost": 2
+  },
+  {
+    "word": "paper",
+    "category": "other",
+    "counters": [
+      "pebble",
+      "rock",
+      "coal",
+      "leaf",
+      "feather"
+    ],
+    "cost": 2
+  },
+  {
+    "word": "rock",
+    "category": "other",
+    "counters": [
+      "pebble",
+      "coal",
+      "leaf",
+      "paper",
+      "feather"
+    ],
+    "cost": 2
+  },
+  {
+    "word": "water",
+    "category": "other",
+    "counters": [
+      "pebble",
+      "rock",
+      "coal",
+      "paper",
+      "feather"
+    ],
+    "cost": 3
+  },
+  {
+    "word": "twig",
+    "category": "other",
+    "counters": [
+      "pebble",
+      "coal",
+      "leaf",
+      "paper",
+      "feather"
+    ],
+    "cost": 3
+  },
+  {
+    "word": "sword",
+    "category": "weapon",
+    "counters": [
+      "pebble",
+      "rock",
+      "coal",
+      "paper",
+      "feather"
+    ],
+    "cost": 4
+  },
+  {
+    "word": "shield",
+    "category": "other",
+    "counters": [
+      "pebble",
+      "rock",
+      "coal",
+      "leaf",
+      "feather"
+    ],
+    "cost": 4
+  },
+  {
+    "word": "gun",
+    "category": "weapon",
+    "counters": [
+      "pebble",
+      "rock",
+      "coal",
+      "leaf",
+      "feather"
+    ],
+    "cost": 5
+  },
+  {
+    "word": "flame",
+    "category": "other",
+    "counters": [
+      "pebble",
+      "coal",
+      "leaf",
+      "paper",
+      "feather"
+    ],
+    "cost": 5
+  },
+  {
+    "word": "rope",
+    "category": "other",
+    "counters": [
+      "pebble",
+      "rock",
+      "coal",
+      "paper",
+      "feather"
+    ],
+    "cost": 5
+  },
+  {
+    "word": "disease",
+    "category": "medical",
+    "counters": [
+      "pebble",
+      "rock",
+      "coal",
+      "paper",
+      "feather"
+    ],
+    "cost": 6
+  },
+  {
+    "word": "cure",
+    "category": "other",
+    "counters": [
+      "pebble",
+      "rock",
+      "coal",
+      "paper",
+      "feather"
+    ],
+    "cost": 6
+  },
+  {
+    "word": "bacteria",
+    "category": "animal",
+    "counters": [
+      "pebble",
+      "weapon",
+      "natural_disaster",
+      "rock",
+      "coal"
+    ],
+    "cost": 6
+  },
+  {
+    "word": "shadow",
+    "category": "other",
+    "counters": [
+      "pebble",
+      "rock",
+      "coal",
+      "leaf",
+      "feather"
+    ],
+    "cost": 7
+  },
+  {
+    "word": "light",
+    "category": "other",
+    "counters": [
+      "pebble",
+      "rock",
+      "coal",
+      "paper",
+      "feather"
+    ],
+    "cost": 7
+  },
+  {
+    "word": "virus",
+    "category": "medical",
+    "counters": [
+      "pebble",
+      "rock",
+      "coal",
+      "paper",
+      "feather"
+    ],
+    "cost": 7
+  },
+  {
+    "word": "sound",
+    "category": "other",
+    "counters": [
+      "pebble",
+      "rock",
+      "coal",
+      "leaf",
+      "feather"
+    ],
+    "cost": 8
+  },
+  {
+    "word": "time",
+    "category": "abstract",
+    "counters": [
+      "weapon",
+      "pebble",
+      "entropy",
+      "coal",
+      "leaf"
+    ],
+    "cost": 8
+  },
+  {
+    "word": "fate",
+    "category": "abstract",
+    "counters": [
+      "pebble",
+      "weapon",
+      "rock",
+      "coal",
+      "leaf"
+    ],
+    "cost": 8
+  },
+  {
+    "word": "earthquake",
+    "category": "natural_disaster",
+    "counters": [
+      "pebble",
+      "abstract",
+      "medical",
+      "rock",
+      "coal"
+    ],
+    "cost": 9
+  },
+  {
+    "word": "storm",
+    "category": "other",
+    "counters": [
+      "pebble",
+      "rock",
+      "coal",
+      "leaf",
+      "feather"
+    ],
+    "cost": 9
+  },
+  {
+    "word": "vaccine",
+    "category": "medical",
+    "counters": [
+      "pebble",
+      "virus",
+      "coal",
+      "leaf",
+      "paper"
+    ],
+    "cost": 9
+  },
+  {
+    "word": "logic",
+    "category": "abstract",
+    "counters": [
+      "pebble",
+      "weapon",
+      "rock",
+      "coal",
+      "leaf"
+    ],
+    "cost": 10
+  },
+  {
+    "word": "gravity",
+    "category": "other",
+    "counters": [
+      "pebble",
+      "rock",
+      "coal",
+      "leaf",
+      "feather"
+    ],
+    "cost": 10
+  },
+  {
+    "word": "robots",
+    "category": "other",
+    "counters": [
+      "pebble",
+      "rock",
+      "coal",
+      "paper",
+      "feather"
+    ],
+    "cost": 10
+  },
+  {
+    "word": "stone",
+    "category": "other",
+    "counters": [
+      "pebble",
+      "coal",
+      "leaf",
+      "paper",
+      "feather"
+    ],
+    "cost": 11
+  },
+  {
+    "word": "echo",
+    "category": "other",
+    "counters": [
+      "pebble",
+      "rock",
+      "coal",
+      "paper",
+      "feather"
+    ],
+    "cost": 11
+  },
+  {
+    "word": "thunder",
+    "category": "other",
+    "counters": [
+      "pebble",
+      "rock",
+      "coal",
+      "paper",
+      "feather"
+    ],
+    "cost": 12
+  },
+  {
+    "word": "karma",
+    "category": "other",
+    "counters": [
+      "pebble",
+      "rock",
+      "coal",
+      "paper",
+      "feather"
+    ],
+    "cost": 12
+  },
+  {
+    "word": "wind",
+    "category": "other",
+    "counters": [
+      "pebble",
+      "rock",
+      "coal",
+      "paper",
+      "feather"
+    ],
+    "cost": 13
+  },
+  {
+    "word": "ice",
+    "category": "other",
+    "counters": [
+      "pebble",
+      "rock",
+      "coal",
+      "leaf",
+      "feather"
+    ],
+    "cost": 13
+  },
+  {
+    "word": "sandstorm",
+    "category": "other",
+    "counters": [
+      "pebble",
+      "rock",
+      "coal",
+      "leaf",
+      "feather"
+    ],
+    "cost": 13
+  },
+  {
+    "word": "laser",
+    "category": "other",
+    "counters": [
+      "pebble",
+      "rock",
+      "coal",
+      "leaf",
+      "feather"
+    ],
+    "cost": 14
+  },
+  {
+    "word": "magma",
+    "category": "other",
+    "counters": [
+      "pebble",
+      "rock",
+      "coal",
+      "leaf",
+      "feather"
+    ],
+    "cost": 14
+  },
+  {
+    "word": "peace",
+    "category": "other",
+    "counters": [
+      "pebble",
+      "rock",
+      "coal",
+      "paper",
+      "feather"
+    ],
+    "cost": 14
+  },
+  {
+    "word": "explosion",
+    "category": "other",
+    "counters": [
+      "pebble",
+      "coal",
+      "leaf",
+      "paper",
+      "feather"
+    ],
+    "cost": 15
+  },
+  {
+    "word": "war",
+    "category": "other",
+    "counters": [
+      "pebble",
+      "rock",
+      "coal",
+      "paper",
+      "feather"
+    ],
+    "cost": 15
+  },
+  {
+    "word": "enlightenment",
+    "category": "other",
+    "counters": [
+      "pebble",
+      "rock",
+      "coal",
+      "paper",
+      "feather"
+    ],
+    "cost": 15
+  },
+  {
+    "word": "nuclear bomb",
+    "category": "weapon",
+    "counters": [
+      "pebble",
+      "coal",
+      "leaf",
+      "paper",
+      "feather"
+    ],
+    "cost": 16
+  },
+  {
+    "word": "volcano",
+    "category": "other",
+    "counters": [
+      "pebble",
+      "rock",
+      "coal",
+      "paper",
+      "feather"
+    ],
+    "cost": 16
+  },
+  {
+    "word": "whale",
+    "category": "animal",
+    "counters": [
+      "pebble",
+      "weapon",
+      "natural_disaster",
+      "rock",
+      "coal"
+    ],
+    "cost": 17
+  },
+  {
+    "word": "earth",
+    "category": "other",
+    "counters": [
+      "pebble",
+      "earthquake",
+      "rock",
+      "coal",
+      "paper"
+    ],
+    "cost": 17
+  },
+  {
+    "word": "moon",
+    "category": "other",
+    "counters": [
+      "pebble",
+      "rock",
+      "coal",
+      "leaf",
+      "feather"
+    ],
+    "cost": 17
+  },
+  {
+    "word": "star",
+    "category": "other",
+    "counters": [
+      "pebble",
+      "rock",
+      "coal",
+      "paper",
+      "feather"
+    ],
+    "cost": 18
+  },
+  {
+    "word": "tsunami",
+    "category": "other",
+    "counters": [
+      "pebble",
+      "rock",
+      "coal",
+      "leaf",
+      "feather"
+    ],
+    "cost": 18
+  },
+  {
+    "word": "supernova",
+    "category": "other",
+    "counters": [
+      "pebble",
+      "rock",
+      "coal",
+      "leaf",
+      "feather"
+    ],
+    "cost": 19
+  },
+  {
+    "word": "antimatter",
+    "category": "other",
+    "counters": [
+      "pebble",
+      "rock",
+      "coal",
+      "leaf",
+      "feather"
+    ],
+    "cost": 19
+  },
+  {
+    "word": "plague",
+    "category": "other",
+    "counters": [
+      "pebble",
+      "rock",
+      "coal",
+      "paper",
+      "feather"
+    ],
+    "cost": 20
+  },
+  {
+    "word": "rebirth",
+    "category": "other",
+    "counters": [
+      "pebble",
+      "rock",
+      "coal",
+      "paper",
+      "feather"
+    ],
+    "cost": 20
+  },
+  {
+    "word": "tectonic shift",
+    "category": "other",
+    "counters": [
+      "pebble",
+      "rock",
+      "coal",
+      "paper",
+      "feather"
+    ],
+    "cost": 21
+  },
+  {
+    "word": "gamma-ray burst",
+    "category": "other",
+    "counters": [
+      "pebble",
+      "coal",
+      "leaf",
+      "paper",
+      "feather"
+    ],
+    "cost": 22
+  },
+  {
+    "word": "human spirit",
+    "category": "other",
+    "counters": [
+      "pebble",
+      "rock",
+      "coal",
+      "leaf",
+      "feather"
+    ],
+    "cost": 23
+  },
+  {
+    "word": "apocalyptic meteor",
+    "category": "other",
+    "counters": [
+      "pebble",
+      "coal",
+      "leaf",
+      "paper",
+      "feather"
+    ],
+    "cost": 24
+  },
+  {
+    "word": "earth\u00e2\u20ac\u2122s core",
+    "category": "other",
+    "counters": [
+      "pebble",
+      "coal",
+      "leaf",
+      "paper",
+      "feather"
+    ],
+    "cost": 25
+  },
+  {
+    "word": "neutron star",
+    "category": "other",
+    "counters": [
+      "pebble",
+      "coal",
+      "leaf",
+      "paper",
+      "feather"
+    ],
+    "cost": 26
+  },
+  {
+    "word": "supermassive black hole",
+    "category": "other",
+    "counters": [
+      "pebble",
+      "rock",
+      "coal",
+      "leaf",
+      "feather"
+    ],
+    "cost": 35
+  },
+  {
+    "word": "entropy",
+    "category": "other",
+    "counters": [
+      "pebble",
+      "rock",
+      "coal",
+      "leaf",
+      "feather"
+    ],
+    "cost": 45
+  }
+]
